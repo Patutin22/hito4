@@ -1,3 +1,3 @@
 class Book < ApplicationRecord
-    has_many :image, as: :imageable
+    has_many :images, as: :imageable
 end
